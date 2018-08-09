@@ -1,4 +1,15 @@
-! Pat 1
+!================================
+! AutoProxy Format
+!================================
+!    ! Comment
+!    example.com            -> Match	http://www.example.com/foo, http://www.google.com/search?q=www.example.com
+!                              Unmatch	https://www.example.com/
+!    ||example.com          -> Match	http://example.com/foo, https://subdomain.example.com/bar
+!                              Unmatch	http://www.google.com/search?q=example.com
+!    |http://example.com    -> Match 	all page with prefix https://example.com
+!                              Unmatch short url sucah as http://t.co/dsadas
+
+! Part 1
 ||google.com
 ||facebook.com
 ||twitter.com
