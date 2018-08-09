@@ -1,0 +1,9 @@
+! Pat 1
+||google.com
+||facebook.com
+||twitter.com
+||popyard.org
+||popyard.com
+
+! Part 2
+
